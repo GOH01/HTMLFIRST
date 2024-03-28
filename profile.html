@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인프로필 페이지 만들기</title>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: silver;" ><i>권오현</i></h1>
+        <img src="민재.jpg" alt="html 이미지" width="300">
+        <p>
+            안녕하세요! 멋쟁이 사자처럼 12기 백엔드 아기 숫사자 권오현입니다!!
+        </p>
+        <hr style="border: double 8px silver;" >
+    </header>
+    <fieldset>
+        <legend align="center"><h2>CONTACT</h2></legend>
+        <table>
+            <nav>
+                <ul>
+                    <li><a>카카오톡 : bada4446@nate.com</a></li>
+                    <li><a>이메일: wave4446@naver.com</a></li>
+                    <li><a href="https://www.instagram.com/o_xyeon/">인스타그램</a></li>
+                </ul>
+            </nav>
+        </table>
+    </fieldset>
+        
+    <main>
+        <form>
+            <fieldset>
+                <legend align="center"><h2>소개</h2></legend>
+                <table>
+                    <tr>
+                        <th colspan="2">이름 :</th>
+                        <td >권오현</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">나이 :</th>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">혈액형 : </th>
+                        <td>A형</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">학과 :</th>
+                        <td>컴퓨터공학과</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">MBTI : </th>
+                        <td><label for="E">E</label>
+                        <input type="radio" id="E" name="MBTI1" value="E"></td>
+                        <td><label for="I">I</label>
+                        <input type="radio" id="I" name="MBTI1" value="I"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><label for="S">S</label>
+                        <input type="radio" id="S" name="MBTI2" value="S"></td>
+                        <td><label for="N">N</label>
+                        <input type="radio" id="N" name="MBTI2" value="N"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><label for="F">F</label>
+                        <input type="radio" id="F" name="MBTI3" value="F"></td>
+                        <td><label for="T">T</label>
+                        <input type="radio" id="T" name="MBTI3" value="T"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><label for="J">J</label>
+                        <input type="radio" id="J" name="MBTI4" value="J"></td>
+                        <td><label for="P">P</label>
+                        <input type="radio" id="P" name="MBTI4" value="P"></td>
+                        <th>뭘까요?</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">정답은?</th>
+                        <td><select>
+                            <option>?</option>
+                            <option>E</option>
+                            <option>S</option>
+                            <option>T</option>
+                            <option>J</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">취미 :</th>
+                        <td><input type="checkbox" name="basket" id="basket"><label for="basket">농구</label></td>
+                        <td><input type="checkbox" name="foot" id="foot"><label for="foot">풋살</label></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="checkbox" name="helth" id="helth"><label for="helth">헬스</label></td>
+                        <td><input type="checkbox" name="game" id="game"><label for="game">게임</label></td>
+                    </tr>
+                </table>  
+            </fieldset>
+        </form>
+        <video src="htmlvideo.mp4" width="100%" height="400" controls type="video/mp4"></video>
+    </main>
+    <footer>
+        <p>&copy; 멋쟁이사자처럼 12기 백엔드 아기사자 권오현</p>
+        <div>
+            <a href="mailto: ruud12@sungkyul.ac.kr">이메일</a>
+            <a href="https://github.com/GOH01">깃허브</a>
+        </div>
+        <a href="#top">상단으로</a>
+    </footer>
+</body>
+</html>

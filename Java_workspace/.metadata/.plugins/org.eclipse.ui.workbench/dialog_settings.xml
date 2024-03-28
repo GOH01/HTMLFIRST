@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="571"/>
+			<item key="DIALOG_Y_ORIGIN" value="248"/>
+			<item key="DIALOG_WIDTH" value="586"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="115"/>
+			<item key="DIALOG_Y_ORIGIN" value="174"/>
+			<item key="DIALOG_WIDTH" value="739"/>
+			<item key="DIALOG_HEIGHT" value="647"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/gwon-ohhyeon/Desktop/workspace/Java_workspace/JAVASTUDY/src"/>
+			<item value="/Users/gwon-ohhyeon/Desktop/workspace/Java_workspace/JAVASTUDY/1"/>
+			<item value="/Users/gwon-ohhyeon/Desktop/workspace/Java_workspace/JAVASTUDY/1/p0102"/>
+		</list>
+		<section name="FileSystemImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="115"/>
+			<item key="DIALOG_Y_ORIGIN" value="174"/>
+			<item key="DIALOG_WIDTH" value="739"/>
+			<item key="DIALOG_HEIGHT" value="622"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="PropertyDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-120"/>
+		<item key="DIALOG_Y_ORIGIN" value="137"/>
+		<item key="DIALOG_WIDTH" value="974"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-68"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="922"/>
+		<item key="DIALOG_HEIGHT" value="894"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+</section>
